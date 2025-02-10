@@ -1,1 +1,20 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int calculateScore(char card){
+    
+}
+void printcard(char player[],char dealer[]){
 
+}
+void printStats(){
+
+}
+
+int main(){
+    char player[]={'8','9','5','7'};
+    char dealer[]={'2','3'};
+    bool action;
+    cin>>action;
+    return 0;
+}

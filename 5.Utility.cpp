@@ -5,8 +5,9 @@ using namespace std;
 string num[]={"2","3","4","5","6","7","8","9","10","J","Q","K","A"};
 string sign[]={"spade","heart","dimond","club"};
 int score[]={2,3,4,5,6,7,8,9,10,10,10,10,1};
-int calculateScore(char card){
-    int sizecard =3;
+int calculateScore(vector<string> &card){
+    //int sizecard=sizeof(card)/sizeof(card[0]);
+    int sizecard = card.size();
     int Sumscore=0;
     for(int i=0;i<13;i++){
         for(int j=0;j<sizecard;j++){
